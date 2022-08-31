@@ -3,16 +3,14 @@
   * 	CESE 18 - PdM
   * 	Facundo Colavitte
   *
-  * 	Ejercicio 1 - Puntos 1 y 2
+  * 	Ejercicio 2 - Puntos 1 y 2
   *
-  * 	Hacer parpadear los leds de la placa en secuencia
-  * 	Cambiar la secuencia con el pulsador azul
+  * 	Retardos no bloqueantes
   *
   *******************************************************************************/
 
 #include "main.h"
 
-//Macro para saber la longitud de un array
 
 // UART handler declaration
 UART_HandleTypeDef UartHandle;
