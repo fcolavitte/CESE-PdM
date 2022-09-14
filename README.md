@@ -4,7 +4,7 @@ Workspace: PdM de CESE 18</br>
 Alumno: Facundo Colavitte</br>
 Profesor: Patricio Bos</br>
 IDE: STM32CUBEIDE</br>
-[![version](https://img.shields.io/badge/última_práctica-4.2-blue.svg)](https://shields.io/)
+![version](https://img.shields.io/badge/última_práctica-4.2-blue.svg)
 ## Ejercicio 1
 >Archivo: Practica_1-PdM
 ><details><summary>Descripción</summary>
