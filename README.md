@@ -5,6 +5,7 @@ Alumno: Facundo Colavitte</br>
 Profesor: Patricio Bos</br>
 IDE: STM32CUBEIDE</br>
 [![version](https://img.shields.io/badge/última_práctica-4.2-blue.svg)](https://github.com/fcolavitte/CESE-PdM/tree/main/Practica_3-PdM)
+[![placa](https://img.shields.io/badge/board-STM32_F429ZI-yellow.svg)](https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32f4-series.html)
 ## Ejercicio 1
 >Archivo: Practica_1-PdM
 ><details><summary>Descripción</summary>
