@@ -65,8 +65,8 @@ all: main-build
 main-build: Practica_3-PdM.elf secondary-outputs
 
 # Tool invocations
-Practica_3-PdM.elf Practica_3-PdM.map: $(OBJS) $(USER_OBJS) C:\Users\Facundo\Desktop\CESE\ UBA\CESE-PdM\Practica_3-PdM\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Practica_3-PdM.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Facundo\Desktop\CESE UBA\CESE-PdM\Practica_3-PdM\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica_3-PdM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Practica_3-PdM.elf Practica_3-PdM.map: $(OBJS) $(USER_OBJS) C:\Users\Facu\Desktop\UBA\ Esp\ en\ Sist\ Emb\Materias\ CESE\PdM\CESE-PdM\Practica_3-PdM\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Practica_3-PdM.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Facu\Desktop\UBA Esp en Sist Emb\Materias CESE\PdM\CESE-PdM\Practica_3-PdM\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica_3-PdM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
