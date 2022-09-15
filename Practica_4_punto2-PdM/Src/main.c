@@ -3,9 +3,9 @@
   * 	CESE 18 - PdM
   * 	Facundo Colavitte
   *
-  * 	Ejercicio 3 - Puntos 1 y 2
+  * 	Práctica 4 - Puntos 2
   *
-  * 	Retardos no bloqueantes con secuencia de LEDs
+  * 	Detección pulsador con anti-rebote. Modularizado
   *
   *******************************************************************************/
 
