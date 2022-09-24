@@ -4,8 +4,7 @@ Workspace: PdM de CESE 18</br>
 Alumno: Facundo Colavitte</br>
 Profesor: Patricio Bos</br>
 IDE: STM32CUBEIDE</br>
-[![version](https://img.shields.io/badge/última_práctica-4.2-blue.svg)](https://github.com/fcolavitte/CESE-PdM/tree/main/Practica_3-PdM)
-[![placa](https://img.shields.io/badge/board-STM32_F429ZI-yellow.svg)](https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32f4-series.html)
+[![version](https://img.shields.io/badge/última_práctica-4.2-blue.svg)](https://github.com/fcolavitte/CESE-PdM/tree/main/Practica_4_punto2-PdM)
 ## Práctica 1
 >Archivo: Practica_1-PdM
 ><details><summary>Descripción</summary>
@@ -30,9 +29,9 @@ IDE: STM32CUBEIDE</br>
 ></details> 
 ## Práctica 4
 >Archivos:
->- Practica_4-PdM 
+>- Practica_4_punto1-PdM 
 >- Practica_4_punto2-PdM
 ><details><summary>Descripción</summary>
->
-></details> 
-    
+><h3>Punto 1</h3>Implementar una MEF anti-rebote que permita leer el estado del pulsador de la placa NUCLEO y alterne el estado de los LEDs 1 y 2 según se dé un flanco ascendente o descendente.
+><h3>Punto 2</h3>Modularizar el punto 1 y agregar una función de parpadeo de delay no bloqueante para el LED2 de tiempo alternable entre 100 y 500ms según pulsador.
+></details>
