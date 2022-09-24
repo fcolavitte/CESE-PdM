@@ -40,7 +40,7 @@ IDE: STM32CUBEIDE</br>
 ## Práctica 5
 >Archivos:
 >- Practica_5_punto1-PdM 
->- Practica_5_punto2-PdM>
+>- Practica_5_punto2-PdM
 ><details><summary>Descripción</summary>
 ><h3>Punto 1</h3>Generar una librería para comunicación UART.
 ><h3>Punto 2</h3>Utilizar la librería para UART y la librería de la práctica 4 de detección del botón para avisar vía UART los flancos ascendentes y descendentes del pulsador incluido dentro de la placa núcleo.
