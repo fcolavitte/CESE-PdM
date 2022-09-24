@@ -34,4 +34,8 @@ IDE: STM32CUBEIDE</br>
 ><details><summary>Descripción</summary>
 ><h3>Punto 1</h3>Implementar una MEF anti-rebote que permita leer el estado del pulsador de la placa NUCLEO y alterne el estado de los LEDs 1 y 2 según se dé un flanco ascendente o descendente.
 ><h3>Punto 2</h3>Modularizar el punto 1 y agregar una función de parpadeo de delay no bloqueante para el LED2 de tiempo alternable entre 100 y 500ms según pulsador.
+<<<<<<< HEAD
 ></details>
+=======
+></details>
+>>>>>>> 4e39c58f74dffa80cf10f9eec47e4e1ee4b06246
