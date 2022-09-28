@@ -102,21 +102,25 @@ bool_t uartInit(void){
 * @retval None
 */
 void uartSendString(uint8_t * pstring){
-	uint16_t size=0;
-	bool_t is_string=0;
-	for(int i=0;i<UART_LONG_MAX;i++){
-		if(pstring[i]=='\0'){
-			is_string=1;
-			size=i;
-			i=UART_LONG_MAX;
+	if(pstring!=0){
+		uint16_t size=0;
+		bool_t is_string=0;
+		for(int i=0;i<UART_LONG_MAX;i++){
+			if(pstring[i]=='\0'){
+				is_string=1;
+				size=i;
+				i=UART_LONG_MAX;
+			}
 		}
-	}
-	if(is_string==0){	//Convertir en String y recortar
-		pstring[UART_LONG_MAX-1]='\0';
-		size=UART_LONG_MAX-1;
-	}
+		if(is_string==0){	//Convertir en String y recortar
+			pstring[UART_LONG_MAX-1]='\0';
+			size=UART_LONG_MAX-1;
+		}
 
-	uartSendStringSize(pstring, size);
+		uartSendStringSize(pstring, size);
+	} else {
+		/* Control de Error*/
+	}
 }
 
 
@@ -127,7 +131,11 @@ void uartSendString(uint8_t * pstring){
 * @retval None
 */
 void uartSendStringSize(uint8_t * pstring, uint16_t size){
-	HAL_UART_Transmit(&UartHandle, pstring, size, 0xffff);
+	if(pstring!=0 && size>0){
+		HAL_UART_Transmit(&UartHandle, pstring, size, 0xffff);
+	} else {
+		/*Control de Errror*/
+	}
 }
 
 
@@ -139,7 +147,11 @@ void uartSendStringSize(uint8_t * pstring, uint16_t size){
 * @retval None
 */
 void uartReceiveStringSize(uint8_t * pstring, uint16_t size){
-	HAL_UART_Receive(&UartHandle, pstring, size, 0xffff);
+	if(pstring!=0 && size>0){
+		HAL_UART_Receive(&UartHandle, pstring, size, 0xffff);
+	} else {
+		/*Control de Error*/
+	}
 }
 
 

@@ -18,7 +18,7 @@
 
 #define UART_LONG_MAX 100	/*Longitud máxima de cadena de caracteres a enviar por UART*/
 
-/* Parámetros para comunicación UART -******************----------------------*/
+/* ----------- Parámetros para comunicación UART --------------------*/
 static const uint32_t BAUDRATE		= 9600;
 static const uint32_t WORD_LENGTH	= UART_WORDLENGTH_8B;
 static const uint32_t STOP_BITS		= UART_STOPBITS_1;
@@ -30,6 +30,7 @@ static const uint32_t HW_FLOW_CTL	= UART_HWCONTROL_NONE;
 typedef bool bool_t;	  // stdbool.h
 
 
+/*------------------------ Funciones ---------------------------------*/
 bool_t uartInit(void);
 void uartSendString(uint8_t * pstring);
 void uartSendStringSize(uint8_t * pstring, uint16_t size);
