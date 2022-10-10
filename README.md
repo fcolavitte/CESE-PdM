@@ -4,7 +4,7 @@ Workspace: PdM de CESE 18</br>
 Alumno: Facundo Colavitte</br>
 Profesor: Patricio Bos</br>
 IDE: STM32CUBEIDE</br>
-[![version](https://img.shields.io/badge/última_práctica-5.2-blue.svg)](https://github.com/fcolavitte/CESE-PdM/tree/main/Practica_5_punto2-PdM)
+[![version](https://img.shields.io/badge/última_práctica-TP_Final-blue.svg)](https://github.com/fcolavitte/CESE-PdM/tree/main/Trabajo_Final_PdM)
 ## Práctica 1
 >Archivo: Practica_1-PdM
 ><details><summary>Descripción</summary>
@@ -46,3 +46,8 @@ IDE: STM32CUBEIDE</br>
 ><h3>Punto 2</h3>Utilizar la librería para UART y la librería de la práctica 4 de detección del botón para avisar vía UART los flancos ascendentes y descendentes del pulsador incluido dentro de la placa núcleo.
 ></details> 
 
+## Trabajo Práctico Final de la materia
+>Archivo: Trabajo_Final_PdM
+><details><summary>Descripción</summary>
+>Mediante las lecturas de temperatura tomadas de un DHT22, realiza el control de un sistema de temperatura por medio de una MEF. Se controla un ventilador(simulado por el LED1 de la placa NUCLEO) el cual puede estar en OFF, 50% con PWM u ON dependiendo la temperatura. Tras superarse la Temperaura Crítica se apaga el ventilador y se enciende el sistema de bombas de agua (anti incendio) durante un periodo de tiempo fijo. El sistema queda bloqueado esperando verificación visual y corrección de la falla por parte de un técnico de la planta, el cual debe presionar el pulsador de la placa NUCLEO para reanudar el programa.
+></details> 
